@@ -1,0 +1,1 @@
+#Excluir contagens de iFood e Localiza
