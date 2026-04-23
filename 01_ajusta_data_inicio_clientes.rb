@@ -5,6 +5,6 @@ month = data.month
 year = data.year
 
 customer_ids.each do |customer_id|
-  Contract.where(customer_id: customer_id).update_all(active_from: Date.new(month, year))
+  Contract.where(customer_id: customer_id).update_all(active_from: Date.new(year, month))
   puts "Atualizado #{Customer.find(customer_id).name}"
 end
