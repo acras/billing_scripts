@@ -4,5 +4,8 @@ https://mail.google.com/mail/u/0/#inbox/FMfcgzQcpKdTVgqKtXGlJpGRQnCTfQbc, https:
 Decidi deixar sem pois ele nem está usando a API ainda.
 
 
-- Cobrar sobreaviso Pelissari
--- 2 horas técnicas em fevereiro no dia tal (perguntar para luciano)
+- Cobrar sobreaviso Pelissari: R$6.000,00 por mês + 300 por chamado
+- Cobrar sobreaviso da Stratesys: R$1.500,00 por mês + 300 por chamado (incidentes)
+
+- Já é hora de cobrar automations da Bom Controle?
+
