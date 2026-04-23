@@ -35,24 +35,6 @@ Receivable.where(customer_id: customer_id, month: month, year: year, is_recurrin
 end;nil
 puts "Total reduzido: #{total_reduzido.to_s}"
 
-## CASO DOIS
-#APEX
-#https://capivara.focusnfe.com.br/admin/financeiro/clientes/2288298
-
-print "Mês: "
-m = gets.strip.to_i
-print "Ano: "
-y = gets.strip.to_i
-
-Receivable.create(month: m, year: y, contract_id: 138485, customer_id: 2288298, status: "open", lancamento_id: nil, value: 99.80, description: "NFSEr - Municípios de São Paulo e Maringá para 1 CNPJ", is_setup_fee: false, is_adjustment: false, is_recurring: true)
-
-#CASO 4
-#Ceres Previdência
-#https://capivara.focusnfe.com.br/admin/financeiro/clientes/2316896
-
-#ATENCAO: não criar mais a cobrança porém garantir que NFSeN seja cobrada
-
-
 #Criação manual dos receivables de indexação
 # SigmaABC: https://capivara.focusnfe.com.br/admin/financeiro/clientes/1390094
 # Tarantela Xaxim: https://capivara.focusnfe.com.br/admin/financeiro/clientes/2192382
