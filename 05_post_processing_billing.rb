@@ -42,9 +42,9 @@ puts "Total reduzido: #{total_reduzido.to_s}"
 # Survey Monkey: 650827
 # Promotec https://capivara.focusnfe.com.br/admin/financeiro/clientes/2193970
 # Wappi https://capivara.focusnfe.com.br/admin/financeiro/clientes/2179925
+# Digipix https://capivara.focusnfe.com.br/admin/financeiro/clientes/2295053
 
-
-#[1390094,2192382,2172319,650827,2193970,2179925].each {|id| gera_receivables_indexacao(id, 2, 2026, 0.01, 59.0)}
+#[1390094,2192382,2172319,650827,2193970,2179925,2295053].each {|id| gera_receivables_indexacao(id, 4, 2026, 0.01, 59.0)}
 
   def gera_receivables_indexacao(customer_id, month, year, valor_unitario, minimo_contratual = nil)
     start_date = Date.new(year, month)
