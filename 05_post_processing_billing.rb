@@ -6,7 +6,7 @@
 #easy peasy
 
 total_reduzido = 0.0
-month = 2
+month = 4
 year = 2026
 i2=Saas::Invoice2.new
 customer_id = 988765
@@ -94,15 +94,3 @@ puts "Total reduzido: #{total_reduzido.to_s}"
     end
   end
 
-## CASO QUATRO
-#Observar One Engenharia
-
-#NFSeR nas prefeituras com webservices e NFe através de MDe. Proposta:
-#- R$99,90 por CNPJ
-#- NFSeR nas prefeituras já integradas e MDe#
-#- Pacote com 500 notas
-#- R$0,10 por nota adicional
-#- R$495,00 para caixa de email
-#- R$199,00 para implementação de novas cidades
-
-#https://capivara.focusnfe.com.br/admin/financeiro/clientes/2189196

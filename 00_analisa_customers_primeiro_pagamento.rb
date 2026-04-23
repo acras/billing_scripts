@@ -1,3 +1,9 @@
+#rodamos pró-ativamente no dia 20 de cada mês, a saída deste script é uma lista de clientes que, se nada for alterado
+#terá sua primeira mensalidade neste ciclo. Esta lista deve ser enviada ao Welker para que ele analise
+#os clientes que devem permanecer em trial.
+#O Welker retorna a lista de ids dos clientes que não devem ser cobrados. Esta lista pode ser usada nos scripts
+#01 e/ou 07. Leia os scripts para entender quando usar.
+
 load 'saas/invoice2.rb'
 
 def customers_to_activate(month, year)

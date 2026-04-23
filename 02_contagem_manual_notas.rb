@@ -1,3 +1,8 @@
+#Durante a contagem automatizada de notas, podem ocorrer erros. Cada erro que ocorre vai para o grupo billing-team
+#O erro que temos que nos preocupar aqui é o "Erro inesperado na contagem de notas"
+#Atenção: existe também o erro de CNPJ não encontrado, esse pode ser ignorado.
+#Depois da contagem, adicionar um SaasDfeCount
+
 MIN_NFE_ID =          310_000_000 # 2025-07-23
 MIN_NFCOM_ID =                  0
 MIN_RPS_ID =          178_200_000 # 2025-07-23

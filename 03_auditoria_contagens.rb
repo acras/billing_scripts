@@ -1,6 +1,13 @@
 #este pequeno procedimento serve para verificar se todos os CNPJs que utilizaram nosso
 #sistema no mês/ano possuem uma contagem de notas neste mesmo mês
 #se possui a contagem será cobrado, senão não.
+
+
+#dar load desse arquivo e rodar audit_counts. Copiar e colar a saída em uma planilha para termos a estatística de quantas notas
+#foram recuperadas e ver casos não cobertos. 
+
+#Se der erro na execução, copiar e colar na planilha e rodar de novo o script com o parâmetro skip.
+
 def audit_counts(month, year, skip: 0)
   load "lib/billing_query_usage_records.rb"
   client = BillingQueryUsageRecords.new
